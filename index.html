@@ -1,162 +1,186 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="stylesheet" href="./css/home.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Boldonse&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Quicksand:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>alfatech</title>
+    <title>AlfaTech</title>
   </head>
   <body>
     <div class="topo">
-      <img src="./assets/logo-icone.png" alt="logo" />
-      <h1>alfatech</h1>
-      <p>soluções em hospedagem</p>
+      <div class="topo-logo">
+        <img src="./assets/logo-icone.png" alt="logo" />
+        <h1>AlfaTech</h1>
+        <p>Soluções em hospedagem</p>
+      </div>
 
       <div class="menu">
         <a href="#informacoes">INFORMAÇÕES</a>
         <a href="#planos">PLANOS</a>
-        <a href="./tabeladepreços.html">PREÇOS</a>
+        <a href="./tabeladepreços.html">ORÇAMENTOS</a>
         <a href="#contatos">CONTATOS</a>
       </div>
     </div>
 
     <div class="banner">
-      <p>Simples - Fácil de usar - 10x mais Rápido</p>
-      <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
-      <p>
-        Obtenha a melhor velocidade para o seu site. Não perca mais clientes
-        por causa de lentidão na sua hospedagem.
-      </p>
-
-      <img src="./assets/imagem-banner.png" alt="banner">
+      <div class="banner-text">
+        <p>Simples - Fácil de usar - 10x mais Rápido</p>
+        <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
+        <p>
+          Obtenha a melhor velocidade para o seu site. Não perca mais clientes
+          por causa de lentidão na sua hospedagem.
+        </p>
+      </div>
+      <div class="imagem-banner">
+        <img src="./assets/imagem-banner.png" alt="banner" />
+      </div>
     </div>
 
     <div class="anuncio">
-        <h2>Hospede o seu site por apenas R$29 por mês.</h2>
+      <div class="texto-anuncio">
+        <h2>Hóspede o seu site por apenas R$29/mês.</h2>
         <p>Também temos planos gratuitos. Adquira já o seu</p>
-
-        <div class="botao-preco">
-            <a href="./tabeladepreços.html"><img src="./assets/icone-foguete.png" alt="icone foguete">TABELA DE PREÇOS</a>
-        </div>
-
+      </div>
+      <div class="botao-preco">
+        <a href="./tabeladeprecos.html"
+          ><img src="./assets/icone-foguete.png" alt="icone foguete" />TABELA DE PREÇOS</a
+        >
+      </div>
     </div>
 
-    
-
     <div id="informacoes" class="secao-informacoes">
-
-        <h2>Existem diversos serviços de hospedagem de sites. Porque você deve <span class="texto-azul">nos escolher?</span></h2>
-        <div class="informacoes-itens">
-          <div class="item">
-            <img src="./assets/icone-engrenagens.png" alt="segurança">
-            <h3>Fácil de configurar</h3>
-            <p>Fácilmente configurável em plataformas cms populares - wordpress, joomia...</p>
-          </div>
-          <div class="item">
-            <img src="./assets/cloud-icone.png" alt="suporte">
-            <h3>Servidores 100% online</h3>
-            <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
-          </div>
-          <div class="item">
-            <img src="./assets/icone-suporte.png" alt="velocidade">
-            <h3>Suporte 24/7</h3>
-            <p>Suporte altamente treinado e especializado em soluções de cloud...</p>
-          </div>
+      <div class="texto-informacoes">
+        <h2>
+          Existem diversos serviços de hospedagem de sites. Por que você deve
+          <span class="texto-azul">nos escolher?</span>
+        </h2>
+      </div>
+      <div class="informacoes-itens">
+        <div class="item">
+          <img src="./assets/icone-engrenagens.png" alt="segurança" />
+          <h3 class="titulo1">Fácil de configurar</h3>
+          <p>
+            Facilmente configurável em plataformas CMS populares - WordPress,
+            Joomla...
+          </p>
         </div>
-
-        <div id="planos" class="planos">
-          <h2>Pague <span class="texto-azul">somente</span> pelo que for usar. Sem cobranças adicionais</h2>
-
-          <div class="planos-servidores">
-            <table>
-              <thead>
-                <tr>
-                    <th>
-                      <h3>Pessoal</h3>
-                      <img src="./assets/pessoal-icone.png" alt="Plano 1">
-                      <p>Indicado para uso pessoal</p>
-                    </th>
-                    <th>
-                      <h3>Profissional</h3>
-                      <img src="./assets/equipe-icone.png" alt="Plano 2">
-                      <p>Indicado para profissionais de t.i</p>
-                    </th>
-                    <th>
-                      <h3>Empresarial</h3>
-                      <img src="./assets/empresa-icone.png" alt="Plano 3">
-                      <p>Indicado para empresas</p>
-                    </th>
-                      
-                  <th>
-                    <h3>Big techs</h3>
-                    <img src="./assets/big-tech.png" alt="plano 4">
-                    <p>Indicado para grandes empresas</p>
-                  </th>
-                 </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1 Usuário</td>
-                  <td>10 Usuários</td>
-                  <td>25 Usuários</td>
-                  <td>50 Usuários</td>
-                </tr>
-                <tr>
-                  <td>1 Dominio grátis</td>
-                  <td>2 Dominios grátis</td>
-                  <td>2 Dominis grátis</td>
-                  <td>3 Dominios grátis</td>
-                </tr>
-                <tr>
-                  <td>200GB SSD de espaço</td>
-                  <td>500GB SSD de espaço</td>
-                  <td>1TB SSD de espaço</td>
-                  <td>2 TB SSD de espaço</td>
-                </tr>
-                <tr>
-                  <td>Ofertas especiais</td>
-                  <td>Ofertas especiais</td>
-                  <td>Ofertas especiais</td>
-                  <td>Ofertas especiais</td>
-                  <td>Ofertas especiais</td>
-                </tr>
-                <tr>
-                  <td>Suporte ilimitado</td>
-                  <td>Suporte ilimitado</td>
-                  <td>Suporte ilimitado</td>
-                  <td>Suporte ilimitado</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <div class="item">
+          <img src="./assets/cloud-icone.png" alt="suporte" />
+          <h3 class="titulo2">Servidores 100% online</h3>
+          <p>
+            Serviços que operam 100% do tempo para manter o seu site online...
+          </p>
         </div>
-
-        <div class="anuncio">
-
-          <h2>Mias de 20.000 pessoas confiam na alfatech! seja um deles você também!</h2>
-          <div class="botao-preco1">
-
-            <a href="./tabeladepreços.html"><img src="./assets/icone-foguete.png" alt="icone foguete">TABELA DE PREÇOS</a>
-          </div>
+        <div class="item">
+          <img src="./assets/icone-suporte.png" alt="velocidade" />
+          <h3 class="titulo3">Suporte 24/7</h3>
+          <p>
+            Suporte altamente treinado e especializado em soluções de cloud...
+          </p>
         </div>
+      </div>
+    </div>
 
-        <div id="contatos" class="rodape">
-          <img src="./assets/logo-icone.png" alt="logo">
-          <h2>Alfatech</h2>
-          <p>Solucões em hospedagem</p>
-          <p>Telefone & Whatsapp: (21) 99999-5555</p>
-          <p>E-mail: suporte@alfatech.com</p>
-          <p>Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
-          <p>&copy;AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
-          <div class="rodape-criador">
-            <p>Desenvolvido por - <span class="texto-azul">Lucas Dias Xavier</span> - dev front-end</p>
-          </div>
-        </div>
-        
+    <div id="planos" class="planos">
+      <div class="titulo-planos">
+        <h2>Pague <span class="texto-azul">somente</span> pelo que for usar. Sem cobranças adicionais</h2>
+      </div>
+      <div class="planos-servidores">
+        <table class="tabela-planos">
+          <thead>
+            <tr>
+              <th class="fundo-escuro">
+                <h3>Pessoal</h3>
+                <img src="./assets/pessoal-icone.png" alt="Plano 1" />
+                <p>Indicado para uso pessoal</p>
+              </th>
+              <th class="fundo-escuro">
+                <h3>Profissional</h3>
+                <img src="./assets/equipe-icone.png" alt="Plano 2" />
+                <p>Indicado para profissionais de T.I</p>
+              </th>
+              <th class="fundo-escuro">
+                <h3>Empresarial</h3>
+                <img src="./assets/empresa-icone.png" alt="Plano 3" />
+                <p>Indicado para empresas</p>
+              </th>
+              <th class="fundo-transparente">
+                <h3>Big techs</h3>
+                <img src="./assets/big-tech.png" alt="plano 4" />
+                <p>Indicado para grandes empresas</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1 Usuário</td>
+              <td>10 Usuários</td>
+              <td>25 Usuários</td>
+              <td>50 Usuários</td>
+            </tr>
+            <tr>
+              <td class="fundo-escuro">1 Domínio grátis</td>
+              <td class="fundo-escuro">2 Domínios grátis</td>
+              <td class="fundo-escuro">2 Domínios grátis</td>
+              <td class="fundo-escuro">3 Domínios grátis</td>
+            </tr>
+            <tr>
+              <td>200GB SSD de espaço</td>
+              <td>500GB SSD de espaço</td>
+              <td>1TB SSD de espaço</td>
+              <td>2 TB SSD de espaço</td>
+            </tr>
+            <tr>
+              <td class="fundo-escuro">Ofertas especiais</td>
+              <td class="fundo-escuro">Ofertas especiais</td>
+              <td class="fundo-escuro">Ofertas especiais</td>
+              <td class="fundo-escuro">Ofertas especiais</td>
+            </tr>
+            <tr>
+              <td>Suporte ilimitado</td>
+              <td>Suporte ilimitado</td>
+              <td>Suporte ilimitado</td>
+              <td>Suporte ilimitado</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="anuncio">
+      <div class="texto-anuncio2">
+        <h2>Mais de 20.000 pessoas confiam na AlfaTech! Seja um deles você também!</h2>
+      </div>
+      <div class="botao-preco">
+        <a href="./tabeladeprecos.html"
+          ><img src="./assets/icone-foguete.png" alt="icone foguete" />TABELA DE PREÇOS</a
+        >
+      </div>
+    </div>
+
+    <div id="contatos" class="rodape">
+      
+      <img src="./assets/logo-icone.png" alt="logo" />
+      <h2>AlfaTech</h2>
+      <p class="paragrafo-logo">Soluções em hospedagem</p>
+      <div class="rodape-contatos">
+      <p>Telefone & Whatsapp: (21) 99999-5555</p>
+      <p>E-mail: suporte@alfatech.com</p>
+      <p>Av. Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
+      <p>&copy;AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
+      </div>
+    </div>
+    <div class="rodape-criador"> 
+      <div class="rodape-conteudo">
+        <p>Desenvolvido por - <span class="texto-azul">Lucas Dias Xavier</span> - dev front-end</p>
+      </div>
+    </div>   
+    
   </body>
 </html>

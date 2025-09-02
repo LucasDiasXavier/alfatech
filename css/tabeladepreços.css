@@ -1,0 +1,232 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+
+    overflow-x: hidden;
+}
+
+.topo{
+
+    width: 100%;
+    position: fixed;
+    padding: 45px 0px;
+    color: #000;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.topo-logo{
+
+    max-width: 1024px;
+}
+
+.topo-logo img{
+
+    width: 60px;
+    position: absolute;
+    top: 15px;
+    left: 109px;
+}
+
+.topo-logo h1{
+
+    font-size: 32px;
+    position: absolute;
+    color: #000;
+    top: 10px;
+    left: 180px;
+}
+
+.topo-logo p{
+
+    font-size: 15px;
+    color: #0A7DDE;
+    position: absolute;
+    top: 45px;
+    left: 180px;
+    margin-top: 5px;
+}
+
+.topo-menu{
+
+    position: absolute;
+    top: 33px;
+    right: 10px;
+}
+
+.topo-menu a{
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+    background-image: linear-gradient(120deg, #0a7dde 0%, #000A23 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.tabela-precos{
+
+    width: 100%;
+    background: #020024;
+    background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    position: relative;
+    color: #fff;
+    height: 940px;
+    
+    
+}
+
+.tabela-precos-conteudo{
+
+    position: absolute;
+    top: 110px;
+    left: 180px;
+    line-height: 2.3;
+    max-width: 1024px;
+    box-shadow: 10px 15px 40px 15px rgba(47,134,214,100);
+    border-radius: 4px;
+}
+
+.tabela-precos-conteudo thead th{
+
+    padding: 20px 40px;
+}
+
+.tabela-precos-conteudo tbody td{
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0px;
+
+    
+}
+
+.celula-escondida{
+
+    visibility: hidden;
+}
+
+.celula-cabeçalho{
+
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.celula-cabeçalho p{
+
+    font-size: 14px;
+    font-weight: 600;
+    
+
+}
+
+.celula-cabeçalho h2{
+
+    font-size: 28px;
+}
+
+.fundo-escuro{
+
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 55%, rgba(0, 212, 255, 1) 100%);
+    color:#fff;
+    position: relative;
+}
+
+.fundo-transparente{
+
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 0.7) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  
+}
+
+.marcador-azul{
+
+    width: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #0a7dde;
+    margin: auto;
+}
+
+
+.rodape{
+
+    width: 100%;
+    position: relative;
+    color: #000;
+    
+}
+
+.rodape img{
+
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    left: 420px;
+}
+
+.rodape h3{
+
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: absolute;
+    top: 220px;
+    left: 630px;
+    width: 100px;
+}
+
+.paragrafo-logo{
+
+    position: absolute;
+    top: 260px;
+    left: 630px;
+    color: #0a7dde;
+    font: 15px;
+
+}
+
+.copyright{
+
+    position: absolute;
+    top: 450px;
+    left: 370px;
+}
+
+.rodape-criador{
+
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-position: top;
+    background: #020024;
+    background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    top: 630px;
+    padding: 30px 0px;
+    color: #fff;
+}
+
+.rodape-criador p{
+
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    left: 410px;
+}
+
+.texto-azul{
+
+    color: #0a7dde;
+    font-weight: 700;
+}
+
+

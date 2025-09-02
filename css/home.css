@@ -1,0 +1,507 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"oppins", sans-serif;
+
+}
+
+body{
+
+    overflow-x: hidden;
+}
+
+.topo{
+
+    width: 100%;
+    padding: 45px 0px;
+    color: #000;
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.topo-logo{
+
+    max-width: 1024px;
+}
+
+.topo-logo img{
+
+    position: absolute;
+    top: 15px;
+    left: 109px;
+    width: 60px;
+
+}
+
+.topo-logo h1{
+
+    position: absolute;
+    font-size: 32px;
+    color: #000;
+    top: 10px;
+    left: 180px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.topo-logo p{
+
+    position: absolute;
+    font-size: 15px;
+    color: #0A7DDE;
+    top: 45px;
+    left: 180px;
+    margin-top: 5px;
+}
+
+.menu{
+
+    position: absolute;
+    top: 33px;
+    right: 10px;
+}
+
+.menu a{
+
+    margin: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, #0a7dde 0%, #000A23 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    
+    
+    
+}
+
+.banner{
+
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    height: 900px;
+    color: #fff;
+    position: relative;
+    background: #020024;
+    background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.banner-text{
+
+    max-width: 600px;
+}
+
+.banner-text h2, p{
+
+    max-width: 500px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    position: relative;
+    top: 380px;
+    left: 100px;
+    
+}
+
+.banner-text h2{
+
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.banner-text p{
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.imagem-banner{
+    position: absolute;
+    max-width: 200px;
+}
+
+.imagem-banner img{
+
+    position: absolute;
+    width: 400px;
+    top: 295px;
+    margin-left: 790px;
+    
+}
+
+.anuncio{
+
+    width: 100%;
+    height: 90px;
+    color: #fff;
+    background: #020024;
+    background: radial-gradient(circle,rgba(2, 0, 36, 1) -50%, rgba(9, 9, 121, 1) -25%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+    text-decoration: none;
+    margin: 1px;
+    position: relative;
+}
+
+.texto-anuncio{
+
+    max-width: 1024px;
+    margin: auto;
+}
+
+.texto-anuncio2{
+
+    width: 100%;
+    position: relative;
+    top: -5px;
+    left: 100px;
+    padding: 15px 0px;
+    
+  
+}
+
+.texto-anuncio2 h2{
+
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    color: #fff;
+    width: 550px;
+    text-align: justify;
+}
+
+
+.texto-anuncio h2{
+
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: none;
+    position: absolute;
+    top: 13px;
+    left: 100px;
+}
+
+.texto-anuncio p{
+
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+
+.botao-preco{
+
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    background-color: #0a7dde;
+    color: #fff;
+    border-radius: 50px;
+
+}
+
+.botao-preco a{
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 20px 40px;
+}
+
+.botao-preco:hover{
+
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-preco img{
+
+    width: 15px;
+    margin-right: 10px;
+}
+
+.secao-informacoes{
+
+    position: relative;
+    max-width: 1024px;
+    margin: auto;
+    padding: 80px 0px;
+    text-align: center;
+    color: #fff;
+    background-color: #fff;
+    
+}
+
+.texto-informacoes{
+
+    max-width: 700px;
+    margin: auto;
+    padding: 50px 0px;
+    color: #000;
+}
+
+.texto-informacoes h2{
+
+    font-size: 28px;
+    margin: 0px auto 60px;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+    
+}
+
+.informacoes-itens{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #000;
+}
+
+.item{
+
+    max-width: 200px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.item img{
+
+    width: 130px;
+    margin-bottom: 50px;
+}
+
+.item h3{
+
+    position: absolute;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 15px 0px;
+    text-transform: capitalize;
+    color: #000;
+    width: 250px;
+    right: -110px;
+    text-align: center;
+    width: 400px;
+    top: 60%;
+}
+
+
+
+.item p{
+
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 220px;
+    left: -75px;
+    width: 320px;
+}
+
+.texto-azul{
+
+    color: #0a7dde;
+    font-weight: 700;
+}
+
+.planos{
+
+    width: 100%;
+    position: relative;
+    background: #020024;
+    background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    height: 900px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo-planos{
+
+    position: absolute;
+    top: 55px;
+    max-width: 1024px;
+}
+
+.titulo-planos h2{
+
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+
+.planos-servidores{
+
+    max-width: 1024px;
+    color: #fff;
+    margin: auto;
+    position: relative;
+}
+
+
+.tabela-planos {
+    border-radius: 4px;
+    margin: auto;
+    box-shadow: 10px 15px 40px 15px rgba(47,134,214,100);
+    position: relative;
+}
+
+.titulo-planos h2{
+
+    margin-top: 40px;
+}
+
+.tabela-planos thead th {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+.fundo-escuro{
+
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 55%, rgba(0, 212, 255, 1) 100%);
+    color:#fff;
+    position: relative;
+}
+
+.fundo-claro{
+
+    background-color: #0a7dde;
+    color: #fff;
+}
+
+.fundo-transparente{
+
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 0.7) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  
+}
+
+.tabela-planos thead th h3 {
+    margin-bottom: 20px;
+}
+
+.tabela-planos thead th img {
+    width: 100px;
+    margin: auto;
+}
+
+.tabela-planos thead th p {
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+    position: relative;
+    top: 12px;
+    left: 0px;
+    text-align: center;
+    
+}
+
+.tabela-planos tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.rodape{
+
+    width: 100%;
+    position: relative;
+    color: #000;
+    
+}
+
+.rodape img{
+
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+
+.rodape h2{
+
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: absolute;
+    top: 220px;
+    left: 660px;
+    width: 100px;
+}
+
+.rodape-contatos{
+
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    text-align: center;
+}
+.rodape-contatos p{
+
+    font-size: 15px;
+    color: #000;
+    line-height: 1.5;
+    font-weight: 500;
+    
+}
+
+.paragrafo-logo{
+
+    position: absolute;
+    top: 260px;
+    left: 660px;
+    color: #0a7dde;
+    font: 15px;
+
+}
+
+.rodape-criador{
+
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-position: top;
+    background: #020024;
+    background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    top: 630px;
+    padding: 30px 0px;
+}
+
+.rodape-conteudo{
+
+    max-width: 1024px;
+    color: #fff;
+    position: relative;
+    
+    
+}
+
+.rodape-conteudo p{
+
+    font-size: 18px;
+    position: absolute;
+    top: -10px;
+    left: 410px;
+}
